@@ -1,6 +1,7 @@
 #allSection{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+
 }
 
 #gatorSection{
@@ -10,33 +11,41 @@
 
 .fieldAndButton{
   text-align: center;
-  width: 150px;
+  width: 250px;
   height: 60px;
   background-color: rgb(39, 179, 39);
   padding: 4px;
+
 }
 
 .numberImput{
-  width: 130px;
+  width: 210px;
+  font-size: 20px;
+
 }
 
 #gatorHouse{
   text-align: center;
-  width: 150px;
+  width: 250px;
   background-color: rgb(111, 212, 252);
   padding: 4px;
+  font-size: 24px;
+
 }
 
 #feedSection{
   align-items: center;
   padding: 4px;
+  
 }
 
 #feedHouse{
   text-align: center;
-  width: 150px;
+  width: 250px;
   background-color: rgb(255, 188, 88);
   padding: 4px;
+  font-size: 24px;
+
 }
 
 #RyoSection{
@@ -46,7 +55,7 @@
 
 #degiButtonArea{
   text-align: center;
-  width: 150px;
+  width: 250px;
   height: 40px;
   background-color: rgb(39, 179, 39);
   padding: 4px;
@@ -54,9 +63,24 @@
 
 #RyoButton{
   margin-top: 8px;
+  font-size: 20px;
 }
 
 #video{
-  width:150px;
+  width:250px;
   visibility: hidden;
+}
+
+.Button{
+  font-size: 20px;
+}
+
+#chickenButton{
+  font-size: 20px;
+}
+#lobsterButton{
+  font-size: 20px;
+}
+#alienButton{
+  font-size: 20px;
 }

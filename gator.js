@@ -10,7 +10,7 @@ function gator() {
 
 function chicken() {
   console.log("chicken呼び出されました");
-  const num = document.querySelector(".numberImput").value;
+  const num = document.getElementsByClassName("numberImput")[1].value;
   document.querySelector("#gatorHouse").innerText = document.querySelector("#gatorHouse").innerText.substring(num * 2)
   for (let i = 0; i < num; i++) {
     document.querySelector("#feedHouse").innerText += "🍗🐊";
@@ -19,7 +19,7 @@ function chicken() {
 
 function lobster() {
   console.log("lobster呼び出されました");
-  const num = document.querySelector(".numberImput").value;
+  const num = document.getElementsByClassName("numberImput")[1].value;
   document.querySelector("#gatorHouse").innerText = document.querySelector("#gatorHouse").innerText.substring(num * 2)
   for (let i = 0; i < num; i++) {
     document.querySelector("#feedHouse").innerText += "🍤🐊";
@@ -28,7 +28,7 @@ function lobster() {
 
 function alien() {
   console.log("alien呼び出されました");
-  const num = document.querySelector(".numberImput").value;
+  const num = document.getElementsByClassName("numberImput")[1].value;
   document.querySelector("#gatorHouse").innerText = document.querySelector("#gatorHouse").innerText.substring(num * 2)
   for (let i = 0; i < num; i++) {
     document.querySelector("#feedHouse").innerText += "🍔🐊";
@@ -41,7 +41,8 @@ function Ryo() {
   // document.querySelector("#gatorHouse").innerText = "";
   document.querySelector("#video").style.visibility = "visible";
   // for (let i = 0; i < num; i++) {
-  //   document.querySelector("#feedHouse").innerText += "🍔🐊";
+  document.querySelector("#feedHouse").innerText = "";
+  document.querySelector("#gatorHouse").innerText = "";
   // }
 }
 
