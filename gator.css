@@ -1,12 +1,37 @@
-#fieldAndButton{
+#gatorSection{
+  align-items: center;
+  padding: 4px;
+}
+
+.fieldAndButton{
   text-align: center;
   width: 200px;
   height: 200px;
   background-color: green;
+  padding: 4px;
 }
 
 #gatorHouse{
   text-align: center;
-  width: 300px;
+  width: 200px;
   background-color: blue;
+  padding: 4px;
+
+}
+
+#feedSection{
+  align-items: center;
+  padding: 4px;
+}
+
+#feedHouse{
+  text-align: center;
+  width: 200px;
+  background-color: rgb(255, 153, 0);
+  padding: 4px;
+}
+
+#RyoSection{
+  align-items: center;
+  padding: 4px;
 }
