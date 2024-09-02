@@ -1,3 +1,8 @@
+#allSection{
+  display: flex;
+  justify-content: space-between;
+}
+
 #gatorSection{
   align-items: center;
   padding: 4px;
@@ -5,18 +10,21 @@
 
 .fieldAndButton{
   text-align: center;
-  width: 200px;
-  height: 200px;
-  background-color: green;
+  width: 150px;
+  height: 60px;
+  background-color: rgb(39, 179, 39);
   padding: 4px;
+}
+
+.numberImput{
+  width: 130px;
 }
 
 #gatorHouse{
   text-align: center;
-  width: 200px;
-  background-color: blue;
+  width: 150px;
+  background-color: rgb(111, 212, 252);
   padding: 4px;
-
 }
 
 #feedSection{
@@ -26,12 +34,29 @@
 
 #feedHouse{
   text-align: center;
-  width: 200px;
-  background-color: rgb(255, 153, 0);
+  width: 150px;
+  background-color: rgb(255, 188, 88);
   padding: 4px;
 }
 
 #RyoSection{
   align-items: center;
   padding: 4px;
+}
+
+#degiButtonArea{
+  text-align: center;
+  width: 150px;
+  height: 40px;
+  background-color: rgb(39, 179, 39);
+  padding: 4px;
+}
+
+#RyoButton{
+  margin-top: 8px;
+}
+
+#video{
+  width:150px;
+  visibility: hidden;
 }
